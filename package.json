@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node src/server.js",
     "watch": "nodemon run src/server.js",
+    "cluster": "pm2 start src/server.js -i max",
     "test": "jest --watchAll"
   },
   "keywords": [],
